@@ -1,4 +1,4 @@
-package example_fanmeeting;
+package fanmeeting;
 
 import java.io.BufferedReader;
 import java.io.File;
