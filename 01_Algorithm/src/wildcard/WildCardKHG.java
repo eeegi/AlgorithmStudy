@@ -1,4 +1,4 @@
-package example_wildcard;
+package wildcard;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -15,7 +15,7 @@ public class WildCardKHG {
 		BufferedReader br = null;
 
 		try {
-			br = new BufferedReader(new FileReader("src/example_wildcard/InputData.txt"));
+			br = new BufferedReader(new FileReader("src/wildcard/InputData.txt"));
 		} catch (FileNotFoundException e) {
 			br = new BufferedReader(new InputStreamReader(System.in));
 		}
